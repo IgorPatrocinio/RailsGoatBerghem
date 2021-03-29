@@ -34,6 +34,8 @@ Railsgoat::Application.configure do
   config.action_mailer.smtp_settings = { address: "127.0.0.1", port: 1025 }
   config.action_mailer.default_url_options = { host: "127.0.0.1:3000" }
 
+
+  
  # config.middleware.insert_before(
  #      Rack::Lock, Rack::LiveReload,
  #      :min_delay => 500,
@@ -51,5 +53,4 @@ Railsgoat::Application.configure do
   Rails.application.configure do
   config.hosts.clear
 end
-
 end
